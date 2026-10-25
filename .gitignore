@@ -1,0 +1,25 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python environments and cache
+**/venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Frontend dependencies and generated builds
+**/node_modules/
+frontend/dist/
+
+# Runtime logs and local uploads
+*.log
+**/uploads/
+
+# Local editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
